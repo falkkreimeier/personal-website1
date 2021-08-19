@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
 
 .roter-text {
     color: red;
@@ -9,4 +16,10 @@
     color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
+}
+
+.content-box {
+with: 200px; 
+height: 20px;
+background-color: black;
 }
