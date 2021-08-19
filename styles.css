@@ -6,6 +6,13 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    background-color: black;
+}
+
 .roter-text {
     color: red;
     font-family: 'Courier New', Courier, monospace;
@@ -19,7 +26,8 @@ html {
 }
 
 .content-box {
-with: 200px; 
-height: 20px;
+width: 200px; 
 background-color: black;
+font-family: 'Times New Roman', Times, serif;
+color: white;
 }
