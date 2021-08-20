@@ -7,28 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falk Kreimeier</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
     <div>
         <header>
-            <h1>Falk Kreimeier</h1>
+            <h1>Kritzelkopf</h1>
             <nav>
+                <button class="button" type="button">
+                    <a href="#interests">Interests</a></li>
+                </button> <button class="button" type="button">
+                    <a href="#skills">Skills</a></li>
+                </button>
+                <button class="button" type="button">
                 <a href="#Contact">Contact</a></li>
+            </button>
+            <button class="button" type="button">
                 <a href="#Biography">Biography</a></li>
             </nav>
         </header>
     </div>
 
     <main>
-        <img src="/img/falk-kreimeier.1024x1024.jpg" alt="Das bin ich, Falk Kreimeier">
+        <div class="image">
+            <img src="../personal-website1/img/falk-kreimeier.1024x1024.jpg" alt="Das bin ich, Falk Kreimeier">
+        </div>
 
-
-        <section>
-            <h2 class="roter-text">Interests</h2>
-            <ul>
-                <li>Phantasie books</li>
+        <section class="content-box">
+            <h2 id=interests>Interests</h2>
+            <ul class="text">
+                <li>Fantasie books</li>
                 <li>Gaming</li>
                 <li>Doing creative stuff like Lakritzel</li>
                 <li>Meet friends</li>
@@ -36,9 +50,9 @@
             </sections>
 
             <section>
-                <h2 class="blauer-text"> Skills </h2>
-                <ul>
-                    <li>HTML</li>
+                <h2 id=skills> Skills </h2>
+                <ul class="text">
+                    <li>Semantic HTML</li>
                     <li>Java Script</li>
                     <li>CSS</li>
                     <li>Marketing</li>
@@ -46,15 +60,15 @@
                 </ul>
             </section>
 
-            <adress>
+            <adress  class="content-box">
                 <h2 id=Contact>Contact Information</h2>
-                <p>Falk Kreimeier<br />Gesundheitstraße 11<br />42699, Solingen<br />Tel.: 0152-05639742</p>
+                <p class="text">Falk Kreimeier, Gesundheitstraße 11, 42699 Solingen<br />Tel.: 0152-05639742</p>
             </adress>
     </main>
 
     <section>
         <h2>Links</h2>
-        <nav>
+        <nav class="text">
             <ol>
                 <li><a href="https://github.com/falkkreimeier">My Github Site</a></li>
                 <li><a href="https://www.xing.com/home">My Xing Profile</a></li>
@@ -63,15 +77,16 @@
         </nav>
     </section>
 
-    <article>
+    <article class="content-box">
         <h1>Hi, ich bin Falk</h1>
-        <p class="content-box">Hilfe, ich bin blind! Was soll das heißen "Blindtext". Ich hab dich schon verstanden, ich bin ja nicht taub.
+        <p class="text">Hilfe, ich bin blind! Was soll das heißen "Blindtext". Ich hab dich schon verstanden, ich
+            bin ja nicht taub.
             Ich will dich sehen ... SOFORT! Ein Text, der nichts sehen kann, wo gibt es denn sowas?! ZEIG DICH!!!!</p>
     </article>
 
-    <section>
+    <section class="content-box">
         <h2 id=Biography>Curriculum Vitae</h2>
-        <table>
+        <table class="text">
             <tr>
                 <th>08/2021 - 02/2021</th>
                 <td>Copywriter bei 1205 in Solingen</td>
