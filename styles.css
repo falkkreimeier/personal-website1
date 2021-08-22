@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face { 
     font-family: 'Fail';
     src:  url('font/FAIL.TTF') format('truetype');
-  }
+  } */
 
 html {
     box-sizing: border-box;
@@ -28,9 +28,7 @@ h1 {
 
 
 h2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
     color: white;
     font-family: 'halant', serif;
     font-size: 40px;
@@ -38,15 +36,25 @@ h2{
     margin-bottom: -5px;
 }
 
-.text {
+li {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-    
+    justify-content: center;
+}
+
+p {
+    text-align: center;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+table {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
 
 ul {
     list-style-type: none;
@@ -54,44 +62,45 @@ ul {
     margin: 0;
 }
 
-p {
-    padding: 0; 
-    margin: 0;
-}
-
 .image {
   display: flex;
   justify-content: center;
-  height: 500px;
+  height: 300px;
   padding-top: 20px;
-    
-    /* display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    width: 700x;
-    height: 500px;
-    border: 0px;
-    background-color: gray; */
+  background-color: black;
 }
 
-.button {
-    background-color: #bdbfc7;
-    border-style: none;
-    border-width: 0px;
-    font-size: 15px;
-    height: 25px;
-    margin-right: 2px;
-    width: 120px;
-    font-family: 'Nunito Sans', sans-serif;
-    animation-duration; 4s;
+
+.button {  
+    display: inline-block;
+    text-decoration: none;
+    border:0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF; 
+    text-align: center;
+    /* transition: all 0,2s; */
+} 
+   
+.button:hover {
+    color: #000000;
+    background-color: #FFFFFF
  }
 
- .button:hover {
-    transform:translateY(-5px)
-     
- }
 
-.content-box {
-background-color: black;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+section { 
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family:'Nunito Sans', sans-serif;  
 }
+
+article { 
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family:'Nunito Sans', sans-serif;
+}
+
+
