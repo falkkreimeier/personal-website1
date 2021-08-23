@@ -44,6 +44,7 @@ li {
 }
 
 p {
+    max-width: 400px;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -107,6 +108,9 @@ div {
 }
 
 article { 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
     background-color: black;
 }
 
