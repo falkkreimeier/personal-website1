@@ -6,75 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Falk Kreimeier</title>
+    <link rel="stylesheet" href="styles.css">
+    <fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Nunito+Sans:wght@200&display=swap"
+            rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
     <div>
         <header>
-            <h1>Falk Kreimeier</h1>
+            <h1>Pixelkopf</h1>
             <nav>
-                <ul>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#Biography">Biography</a></li>
-                </ul>
+                <a href="#interests" class=button>Interests</a>
+                <a href="#skills" class=button>Skills</a>
+                <a href="#Contact" class=button>Contact</a>
+                <a href="#Links" class=button>Links</a>
+                <a href="#Biography" class=button>Vita</a>
             </nav>
         </header>
     </div>
 
     <main>
-        <img src="/img/falk-kreimeier.1024x1024.jpg" alt="Das bin ich, Falk Kreimeier">
-
+        <div class="image">
+            <img src="../personal-website1/img/falk-kreimeier.1024x1024.jpg" alt="Das bin ich, Falk Kreimeier">
+        </div>
 
         <section>
-            <h2> Interests </h2>
             <ul>
-                <li>Phantasie books</li>
+                <h2 id=interests>Interests</h2>
+                <li>Fantasie books</li>
                 <li>Gaming</li>
                 <li>Doing creative stuff like Lakritzel</li>
                 <li>Meet friends</li>
             </ul>
-            </sections>
 
-            <section>
-                <h2> Skills </h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>Java Script</li>
-                    <li>CSS</li>
-                    <li>Marketing</li>
-                    <li>Copywriter</li>
-                </ul>
-            </section>
+            <ul>
 
-            <adress>
-                <h2 id=Contact>Contact Information</h2>
-                <p>Falk Kreimeier<br />Gesundheitstraße 11<br />42699, Solingen<br />Tel.: 0152-05639742</p>
-            </adress>
+                <h2 id=skills> Skills </h2>
+                <li>Semantic HTML</li>
+                <li>Java Script</li>
+                <li>CSS</li>
+                <li>Marketing</li>
+                <li>Copywriter</li>
+                <li>Salesman</li>
+                <li>Leadership experience</li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <h2 id=Contact>Contact</h2>
+                <li>Falk Kreimeier </li>
+                <li>Gesundheitstraße 11</li>
+                <li>42699 Solingen</li>
+                <li>Tel.: 0152-05639742</li>
+            </ul>
+        </section>
     </main>
 
-    <section>
-        <h2>Links</h2>
+    <div>
         <nav>
-            <ol>
-                <li><a href="https://github.com/falkkreimeier">My Github Site</a></li>
-                <li><a href="https://www.xing.com/home">My Xing Profile</a></li>
-                <li><a href="https://www.lakritzel.com">My own Licorice Liquor</a></li>
-            </ol>
+                <h2 id=links>Links</h2>
+                <a href="https://github.com/falkkreimeier" class= "button">My Github Site</a>
+                <a href="https://www.xing.com/home" class="button">My Xing Profile</a>
+                <a href="" class="button">Portfolio</a>
+                <a href="https://www.lakritzel.com" class="button">My own Licorice Liquor</a>
         </nav>
-    </section>
+    </div>
 
     <article>
-        <h1>Hi, ich bin Falk</h1>
-        <p>Hilfe, ich bin blind! Was soll das heißen "Blindtext". Ich hab dich schon verstanden, ich bin ja nicht taub.
-            Ich will dich sehen ... SOFORT! Ein Text, der nichts sehen kann, wo gibt es denn sowas?! ZEIG DICH!!!!</p>
+        <h2>Lorem Ipsum</h2>
+        <p> Hilfe, ich bin blind! Was soll das heißen "Blindtext". Ja, ja, das habe ich schon verstanden,
+            bin ja nicht taub.
+        </p>
     </article>
 
     <section>
-        <h2 id=Biography>Curriculum Vitae</h2>
+        <h2 id=Biography>Vita</h2>
         <table>
             <tr>
-                <th>08/2021 - 02/2021</th>
-                <td>Copywriter bei 1205 in Solingen</td>
+                <td>08/2021 - 02/2021 Copywriter bei 1205 in Solingen</td>
+                <td>08/2021 - 02/2021Copywriter bei 1205 in Solingen</td>
             </tr>
         </table>
     </section>
