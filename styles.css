@@ -22,8 +22,7 @@ header {
 
 h1 {
     color: white;
-    font-family: 'halant', serif;
-    
+    font-family: 'halant', serif;   
 }
 
 
@@ -71,7 +70,7 @@ ol {
 .image {
   display: flex;
   justify-content: center;
-  height: 350px;
+  height: 300px;
   padding-top: 20px;
   background-color: black;
 }
@@ -98,6 +97,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0px; 
     margin: 0px;
     background-color: rgb(0, 0, 0); 
