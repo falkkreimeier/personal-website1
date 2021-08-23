@@ -71,7 +71,7 @@ ol {
 .image {
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 350px;
   padding-top: 20px;
   background-color: black;
 }
