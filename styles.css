@@ -3,7 +3,7 @@
     src:  url('font/FAIL.TTF') format('truetype');
   } */
 
-html {
+html { 
     box-sizing: border-box;
 }
 
@@ -44,6 +44,8 @@ li {
 }
 
 p {
+    padding: 0;
+    margin: 0;
     text-align: center;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
@@ -54,10 +56,13 @@ table {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-
-
 ul {
-    list-style-type: none;
+    /* list-style-type: none; */
+    padding: 0;
+    margin: 0;
+}
+
+ol {
     padding: 0;
     margin: 0;
 }
@@ -69,7 +74,6 @@ ul {
   padding-top: 20px;
   background-color: black;
 }
-
 
 .button {  
     display: inline-block;
@@ -90,17 +94,30 @@ ul {
 
 
 section { 
-    padding: 0px;
+    display: flex;
+    justify-content:space-around;
+    padding: 0px; 
     margin: 0px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family:'Nunito Sans', sans-serif;  
 }
 
-article { 
-    padding: 0px;
-    margin: 0px;
+div {
     background-color: black;
-    font-family:'Nunito Sans', sans-serif;
+}
+
+article { 
+    background-color: black;
+}
+
+td {
+display: flex; 
+justify-content: center;
+}
+
+body {
+    background-color: black;
+
 }
 
 
