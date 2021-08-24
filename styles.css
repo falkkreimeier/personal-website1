@@ -35,13 +35,6 @@ h2{
     margin-bottom: -5px;
 }
 
-li {
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
 p {
     max-width: 400px;
     padding: 0;
@@ -50,6 +43,15 @@ p {
     color: white;
     font-family: 'Nunito Sans', sans-serif;
 }
+
+
+li {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
 
 table {
     color: white;
@@ -70,7 +72,7 @@ ol {
 .image {
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 80vh;
   padding-top: 20px;
   background-color: black;
 }
@@ -92,19 +94,50 @@ ol {
     background-color: #FFFFFF
  }
 
+ .links {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    /* background-color: white; */
+    border:0.1em solid #FFFFFF;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    border-style: solid;
+    border-color:#FFFFFF;
+    /* animation: text 3s; */ */
+ }
+    
+
+   /* @keyframes text { 
+    0% { 
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1.25);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    } */
+    
+    
+    .links:hover {  
+    color: #000000;
+    background-color: #FFFFFF
+}
 
 section { 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0px; 
     margin: 0px;
     background-color: rgb(0, 0, 0); 
-}
-
-div {
-    background-color: black;
 }
 
 article { 
@@ -125,10 +158,8 @@ body {
 
 div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0px; 
     margin: 0px;
-    background-color: rgb(0, 0, 0); 
+    background-color: black;
 }
-
-
