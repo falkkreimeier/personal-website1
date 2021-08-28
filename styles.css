@@ -77,6 +77,11 @@ ol {
   background-color: black;
 }
 
+nav {
+    display: flex; 
+    justify-content: center;
+}
+
 .button {  
     display: inline-block;
     text-decoration: none;
@@ -156,9 +161,7 @@ body {
     background-color: black;
 }
 
-div {
-    display: flex;
-    justify-content: center;
+.div {
     padding: 0px; 
     margin: 0px;
     background-color: black;
